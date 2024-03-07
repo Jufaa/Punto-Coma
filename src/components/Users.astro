@@ -13,8 +13,8 @@ let shuffled = users
         <span class="font-bold text-center align-middle text-white xl:text-5xl text-3xl drop-shadow-violet shadow-violet">+1700 usuarios</span>
     </div>
     <div class="brightness-[.3] w-full">
-        <MarqueeUser client:load users={users} />
-        <MarqueeUser client:load reverse={true} users={users} />
-        <MarqueeUser client:load users={shuffled} />
+        <MarqueeUser users={users} />
+        <MarqueeUser reverse={true} users={users} />
+        <MarqueeUser users={shuffled} />
     </div>
 </div>
